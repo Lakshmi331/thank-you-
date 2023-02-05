@@ -1,0 +1,78 @@
+.app-container {
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-card-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-card-container {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .feedback-card-container {
+    padding: 30px;
+  }
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.love-emoji {
+  height: 50px;
+  width: 50px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 12px;
+}
+
+.feedback-question-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-question {
+  color: #000000;
+  font-size: 16px;
+}
+
+.emojis-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 32px;
+  padding: 0px;
+}
+
+.emoji {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 15px;
+}
+.button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
